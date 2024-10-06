@@ -19,7 +19,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff",
-        "permissions": ["NOTIFICATIONS"]
+        "permissions": [
+          "NOTIFICATIONS"
+        ]
       }
     },
     "web": {
@@ -32,6 +34,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8568f356-1188-4416-bd31-1f1af3d487c0"
+      }
     }
   }
 }

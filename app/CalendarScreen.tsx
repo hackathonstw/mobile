@@ -70,7 +70,7 @@ export default function App() {
       return;
     }
 
-    const token = (await Notifications.getExpoPushTokenAsync({ projectId: 'mobile1337' })).data;
+    const token = (await Notifications.getExpoPushTokenAsync({ projectId: '8568f356-1188-4416-bd31-1f1af3d487c0' })).data;
     console.log('Notification Token:', token);
 
     if (Platform.OS === 'android') {
